@@ -1,0 +1,55 @@
+/******************************************************************************
+TIP: Menu theme displays your links with images from settings.json
+
+Edit / copy or create your own CSS file in public/styles/themes
+Select your chosen CSS by adding the theme name (e.g. menu) in settings.json
+******************************************************************************/
+
+:root {
+  --color-bg: #ECE1AE;
+  --color-text-main: var(--glitch-blue-light);
+}
+body {
+  background-image: url("https://cdn.glitch.global/9f86fccc-25fa-4fde-afb8-43a451cb73b7/Overview-City-Template.png?v=1744407496209");
+  background-size: cover;
+}
+
+ul.link-list li a {
+  display: flex;
+}
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  color: #ffe770;
+  background: rgba(236, 225, 174, 0.3);
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: bold;
+  min-height: 4.5rem;
+}
+ul.link-list li a span {
+  text-align: justify;
+  line-height: 1.2em;
+  flex-grow: 1;
+  text-align: center;
+}
+ul.link-list li a:hover, ul.link-list li a:focus {
+  background-color: rgba(236, 225, 174, 0.5);
+}
+ul.link-list li a img {
+  border-radius: 0.2rem;
+  width: 3;
+  overflow: visible;
+}
+.social-profile-icon path:hover, .social-profile-icon path:focus {
+  fill: var(--color-bg);
+}
+
+h1 {
+  font-family: monospace;
+  color: var(--color-bg);
+}
+
+.footer {
+  color: var(--color-bg);
+}
