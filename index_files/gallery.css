@@ -28,7 +28,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 body {
   background-image: url("https://cdn.glitch.global/0b7281e9-18f1-40e0-a7b0-db73b33f499b/abstract-modern-wave-graphic-background-blue-background-abstract-wave-background-design-dark-poster-blue-background-illustration-vector_upscayl_2x_digital-art-4x.png?v=1745276493919");
   background-color: #001389; /* Used if the image is unavailable */
-  height: 1250px; /* You must set a specified height */
+  height: 1750px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
