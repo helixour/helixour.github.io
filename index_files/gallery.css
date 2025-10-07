@@ -5,14 +5,15 @@ Edit / copy or create your own CSS file in public/styles/themes
 Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 ******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
 
 :root {
   --avatar-max-width: 50px;
   --color-bg: #FFFFFF;
-  --color-bg-alt: #D7F5EF;
-  --color-text-main: #000000;
-  --color-primary: #FF7698;
+  --color-bg-alt: #77AAF8;
+  --color-text-main: #3d8aff;
+  --color-primary: #77AAF8;
   --glitch-gray-5: #4F4F4F;
   --glitch-gray-4: #828282;
   --glitch-gray-3: #BDBDBD;
@@ -25,18 +26,30 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   border-radius: 0;
 }
 body {
-  background: var(--color-bg);
+  background-image: url("https://cdn.glitch.global/0b7281e9-18f1-40e0-a7b0-db73b33f499b/abstract-modern-wave-graphic-background-blue-background-abstract-wave-background-design-dark-poster-blue-background-illustration-vector_upscayl_2x_digital-art-4x.png?v=1745276493919");
+  background-color: #001389; /* Used if the image is unavailable */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image */
+  background-size: cover; /* Scales the image to cover the entire element */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
 
 h1 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Gasoek One", "Barlow Condensed", sans-serif;
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #3eadfa, 0 0 40px #3eadfa;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2.8rem;
   position: absolute;
   top: 6px;
   left: 68px;
   font-weight: normal;
-  color: var(--glitch-gray-5);
-  text-transform: uppercase;
+  color: var(--color-bg);
+}
+
+.secret {
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #3eadfa;
 }
 
 ul.link-list {
@@ -55,7 +68,7 @@ ul.link-list li {
   position: relative;
   aspect-ratio: 1;
   min-height: 200px;
-  background-color: #9480FF;
+  background-color: #0054b8;
   border-radius: 0;
   overflow: hidden;
   margin: 0;
@@ -110,7 +123,7 @@ ul.link-list li a:visited {
 }
 
 .social-profile-icon path {
-  fill: var(--glitch-gray-3);
+  fill: var(--color-primary);
 }
 
 .avatar-container {
@@ -119,6 +132,6 @@ ul.link-list li a:visited {
   left: 6px;
 }
 .footer {
-  color: var(--glitch-gray-5);
-  border-top: 2px solid var(--glitch-gray-3);
+  color: var(--color-primary);
+  border-top: 2px solid var(--color-primary);
 }
