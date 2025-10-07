@@ -11,9 +11,9 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 :root {
   --avatar-max-width: 50px;
   --color-bg: #FFFFFF;
-  --color-bg-alt: #77AAF8;
-  --color-text-main: #3d8aff;
-  --color-primary: #77AAF8;
+  --color-bg-alt: #979797;
+  --color-text-main: #474747;
+  --color-primary: #5c5c5c;
   --glitch-gray-5: #4F4F4F;
   --glitch-gray-4: #828282;
   --glitch-gray-3: #BDBDBD;
