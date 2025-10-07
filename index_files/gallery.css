@@ -23,7 +23,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   position: relative;
 }
 .avatar {
-  border-radius: 1;
+  border-radius: 0.25;
 }
 body {
   background-image: "index_files/bg.png";
@@ -68,7 +68,7 @@ ul.link-list li {
   position: relative;
   aspect-ratio: 1;
   min-height: 200px;
-  background-color: #0054b8;
+  background-color: #303030a9;
   border-radius: 0;
   overflow: hidden;
   margin: 0;
