@@ -39,12 +39,12 @@ h1 {
   font-family: "Barlow Condensed", sans-serif;
   text-shadow: 0 0 20px #ffffff, 0 0 30px #4d4d4d, 0 0 40px #191919;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
   font-size: 2.8rem;
   position: absolute;
   top: 6px;
   left: 68px;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--color-bg);
 }
 
