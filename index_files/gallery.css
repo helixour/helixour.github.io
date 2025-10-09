@@ -5,7 +5,6 @@ Edit / copy or create your own CSS file in public/styles/themes
 Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 ******************************************************************************/
 
-/* @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
 
 :root {
