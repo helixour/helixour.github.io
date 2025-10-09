@@ -23,7 +23,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   position: relative;
 }
 .avatar {
-  border-radius: 0.01;
+  border-radius: 1;
 }
 body {
   background-image: "index_files/bg.png";
