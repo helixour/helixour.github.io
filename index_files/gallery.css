@@ -32,7 +32,7 @@ body {
   background-size: cover; /* Scales the image to cover the entire element */
   background-attachment: fixed; /* Keeps the background fixed during scrolling */
   min-height: 100vh; /* Ensures the body takes at least the full viewport height */
-  filter: brightness(130%); /* Makes the image 30% brighter */
+  filter: brightness("130%"); /* Makes the image 30% brighter */
 }
 
 h1 {
