@@ -25,7 +25,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   border-radius: 1;
 }
 body {
-  background-image: url("https://helixour.github.io/index_files/bg.png");
+  background-image: url("https://helixour.github.io/stars/htm"); /* index_files/bg.png */
   background-color: #191919; /* Used if the image is unavailable */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center center; /* Centers the image */
