@@ -36,7 +36,7 @@ body {
 
 h1 {
   font-family: "Barlow Condensed", sans-serif;
-  text-shadow: 0 0 20px #ffffff, 0 0 5px #4d4d4d, 0 0 10px #191919;
+  text-shadow: 0 0 20px #ffffff, 0 0 1px #4d4d4d, 0 0 2px #191919;
   font-weight: 400;
   font-style: normal;
   font-size: 2.8rem;
@@ -49,8 +49,7 @@ h1 {
 
 .secret {
   text-shadow: 0 0 20px #ffffff, 0 0 30px #000000;
-  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
-  font-size: 0.8em;
+  color: #ffffff46;
 }
 
 ul.link-list {
