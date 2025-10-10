@@ -47,11 +47,6 @@ h1 {
   color: var(--color-bg);
 }
 
-.secret {
-  text-shadow: 0 0 20px #ffffff, 0 0 30px #000000;
-  color: #ffffff46;
-}
-
 ul.link-list {
   width: 100%;
   display: grid;
