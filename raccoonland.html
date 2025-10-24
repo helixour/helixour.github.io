@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="raccoonland_files/Raccoon%20land%20icon.png">
-    <link rel="stylesheet" type="text/css" href="raccoonland_files/style.css">
-    <!--PWA requirements-->
-    <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" href="raccoonland_files/Raccoon%20land%20icon.png">
+<html lang="en">
 
-    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
-    <script>
-      if (location.protocol == "http:") location.protocol = "https:";
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("sw.js")
-          .then((reg) => console.log("Service Worker registered", reg))
-          .catch((err) =>
-            console.error("Service Worker **not** registered", err)
-          );
-      } else {
-        console.warn("Service Worker not supported in this browser");
-      }
-    </script>
-    
-    <!-- templates/head.js will fill in here -->
-    <script type="module" crossorigin="" src="raccoonland_files/index-5b6523d9.js"></script>
-  <title>raccoon land</title><!-- OpenGraph/Social sharing --><meta name="description" content="This is the official Raccoon Land website!"><meta name="og:description" content="This is the official Raccoon Land website!"><meta property="og:image" content="https://cdn.glitch.global/b1ab9e01-2d01-41c8-a288-bb647105b10a/Raccoon%20land%20icon.png?v=1744208772227"><meta property="og:title" content="raccoon land"><meta name="twitter:card" content="summary"><!-- Load our custom theme --><link rel="stylesheet" type="text/css" href="raccoonland_files/menu.css"></head>
-  <body cz-shortcut-listen="true">
-    <main>
-      <div class="wrapper">
-        <div id="content" class="content">
-          <!-- scripts/render.js determines what fills in here -->
-        </div>
-  
-    </main>
-  
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="raccoonland_files/Raccoon%20land%20icon.png">
+  <link rel="stylesheet" type="text/css" href="raccoonland_files/style.css">
+  <!--PWA requirements-->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" href="raccoonland_files/Raccoon%20land%20icon.png">
 
-</body></html>
+  <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+  <script>
+    if (location.protocol == "http:") location.protocol = "https:";
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("sw.js")
+        .then((reg) => console.log("Service Worker registered", reg))
+        .catch((err) =>
+          console.error("Service Worker **not** registered", err)
+        );
+    } else {
+      console.warn("Service Worker not supported in this browser");
+    }
+  </script>
+
+  <!-- templates/head.js will fill in here -->
+  <script type="module" crossorigin="" src="raccoonland_files/index-5b6523d9.js"></script>
+  <title>raccoon land</title><!-- OpenGraph/Social sharing -->
+  <meta name="description" content="This is the official Raccoon Land website!">
+  <meta name="og:description" content="This is the official Raccoon Land website!">
+  <meta property="og:image"
+    content="https://cdn.glitch.global/b1ab9e01-2d01-41c8-a288-bb647105b10a/Raccoon%20land%20icon.png?v=1744208772227">
+  <meta property="og:title" content="raccoon land">
+  <meta name="twitter:card" content="summary"><!-- Load our custom theme -->
+  <link rel="stylesheet" type="text/css" href="raccoonland_files/menu.css">
+</head>
+
+<body cz-shortcut-listen="true">
+  <main>
+    <div class="wrapper">
+      <div id="content" class="content">
+        <!-- scripts/render.js determines what fills in here -->
+      </div>
+
+  </main>
+
+
+</body>
+
+</html>
