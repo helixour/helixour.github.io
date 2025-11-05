@@ -26,8 +26,8 @@ START Page structure and element resets
   /* Colors you'll see cascade through the elements */
 
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
-  --color-bg: #2d2d2d; /* Used for the page body background */
-  --color-bg-alt: #2d2d2d; /* Used for social icons on hover */
+  --color-bg: #121212; /* Used for the page body background */
+  --color-bg-alt: #121212; /* Used for social icons on hover */
   --color-text-main: #ffffff; /* List text ann social icons on hover */
   --color-primary: #ffffff; /* Headers and borders */
 
