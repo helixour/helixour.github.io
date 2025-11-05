@@ -10,6 +10,8 @@ TIP: This is the default style sheet for the site
 START Page structure and element resets
 ******************************************************************************/
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
+
 /* A set of default style */
 :root {
   /* Generic sizing for the page */
@@ -17,15 +19,15 @@ START Page structure and element resets
   --avatar-max-width: 140px;
 
   /* Fonts for different elements */
-  --font-family: sans-serif;
-  --font-family-header: sans-serif;
+  --font-family: monospace;
+  --font-family-header: "Barlow Condensed", sans-serif;
   --font-family-list: monospace;
 
   /* Colors you'll see cascade through the elements */
 
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
-  --color-bg: #bdbdbd; /* Used for the page body background */
-  --color-bg-alt: #ffffff; /* Used for social icons on hover */
+  --color-bg: #2d2d2d; /* Used for the page body background */
+  --color-bg-alt: #2d2d2d; /* Used for social icons on hover */
   --color-text-main: #000000; /* List text ann social icons on hover */
   --color-primary: #ffffff; /* Headers and borders */
 
