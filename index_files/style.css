@@ -166,7 +166,7 @@ a:not(.btn--remix):visited {
 a:hover,
 a:active,
 a:focus {
-  background: var(--color-primary);
+  background: #69696979;
 }
 /******************************************************************************
 END Page structure and element resets
