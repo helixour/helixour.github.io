@@ -4,18 +4,16 @@ TIP: Menu theme displays your links with images from settings.json
 Edit / copy or create your own CSS file in public/styles/themes
 Select your chosen CSS by adding the theme name (e.g. menu) in settings.json
 ******************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
 :root {
   --color-bg: #855b28;
   --color-text-main: #ffffff;
 }
 
-
 body {
   background: fixed linear-gradient(0deg, #362510, #855b28);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
 ul.link-list li a {
   font-family: "Comic Sans MS", "Comic Neue", sans-serif;
