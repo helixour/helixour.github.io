@@ -1,9 +1,73 @@
-<html>
-  <head>
-    <title>Redirecting you</title>
-    <script>
-      window.location.href = "https://helixour.github.io/construction";
-    </script>
-  </head>
-  <h1>Redirecting you to <a href="https://helixour.github.io/construction">https://helixour.github.io/construction</a></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script type="module" src="index_files/client"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="index_files/rockin raccoon pfp.png">
+  <link rel="stylesheet" type="text/css" href="index_files/style.css">
+  <!--PWA requirements-->
+  <meta name="theme-color" content="#191919">
+  <link rel="apple-touch-icon" href="index_files/rockin raccoon pfp.png">
+
+  <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+  <script>
+    if (location.protocol == "http:") location.protocol = "https:";
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("sw.js")
+        .then((reg) => console.log("Service Worker registered", reg))
+        .catch((err) =>
+          console.error("Service Worker **not** registered", err)
+        );
+    } else {
+      console.warn("Service Worker not supported in this browser");
+    }
+  </script>
+  <script type="module" src="index_files/render.js"></script>
+  <!-- templates/head.js will fill in here -->
+  <title>cool stuff</title>
+  <!-- OpenGraph/Social sharing -->
+  <meta name="description" content="A website with all my socials and more!">
+  <meta name="og:description" content="A website with all my socials and more!">
+  <meta property="og:image" content="index_files/social website card.png">
+  <meta property="og:title" content="helixour's stuff">
+  <meta name="twitter:card" content="summary">
+  <!-- Load our custom theme -->
+  <link rel="stylesheet" type="text/css" href="index_files/gallery.css">
+</head>
+
+<body cz-shortcut-listen="true">
+  <main>
+    <div class="wrapper">
+      <div id="content" class="content">
+        <h1>cool stuff</h1>
+        <ul class="link-list">
+
+          <li class="back">
+            <a href="https://helixour.github.io/">
+              <img src="https://helixour.github.io/construction/img.jpg">
+              <span>back</span>
+            </a>
+          </li>
+
+          <li class="turbowarpBrowser">
+            <a href="TurboWarp Browser.html">
+              <img src="turbowarp browser image.jpg">
+              <span>Browser made ENTIRELY IN TurboWarp/Scratch</span>
+            </a>
+          </li>
+
+        </ul>
+        
+        <footer class="footer"></footer>
+      </div>
+    </div>
+    </div>
+    </div>
+  </main>
+</body>
+
+
 </html>
