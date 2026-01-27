@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="shootingspree_files/shootingspree.png">
-    <link rel="stylesheet" type="text/css" href="shootingspree_files/style.css">
-    <!--PWA requirements-->
-    <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" href="shootingspree_files/shootingspree.png">
+<html lang="en">
 
-    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
-    <script>
-      if (location.protocol == "http:") location.protocol = "https:";
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("sw.js")
-          .then((reg) => console.log("Service Worker registered", reg))
-          .catch((err) =>
-            console.error("Service Worker **not** registered", err)
-          );
-      } else {
-        console.warn("Service Worker not supported in this browser");
-      }
-    </script>
-    
-    <!-- templates/head.js will fill in here -->
-    <script type="module" crossorigin="" src="shootingspree_files/index-69d380da.js"></script>
-  <title>Shooting Spree</title><!-- OpenGraph/Social sharing --><meta name="description"><meta name="og:description"><meta property="og:image" content="shootingspree_files/shootingspree.png"><meta property="og:title" content="Shooting Spree"><meta name="twitter:card" content="summary"><!-- Load our custom theme --><link rel="stylesheet" type="text/css" href="shootingspree_files/menu.css"></head>
-  <body cz-shortcut-listen="true">
-    <main>
-      <div class="wrapper" id="wrapper">
-        <div id="content" class="content">
-          <!-- scripts/render.js determines what fills in here -->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="shootingspree_files/shootingspree.png">
+  <link rel="stylesheet" type="text/css" href="shootingspree_files/style.css">
+  <!--PWA requirements-->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" href="shootingspree_files/shootingspree.png">
+
+  <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+  <script>
+    if (location.protocol == "http:") location.protocol = "https:";
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("sw.js")
+        .then((reg) => console.log("Service Worker registered", reg))
+        .catch((err) =>
+          console.error("Service Worker **not** registered", err)
+        );
+    } else {
+      console.warn("Service Worker not supported in this browser");
+    }
+  </script>
+
+  <!-- templates/head.js will fill in here -->
+  <script type="module" crossorigin="" src="shootingspree_files/index-69d380da.js"></script>
+  <title>Shooting Spree</title><!-- OpenGraph/Social sharing -->
+  <meta name="description">
+  <meta name="og:description">
+  <meta property="og:image" content="shootingspree_files/shootingspree.png">
+  <meta property="og:title" content="Shooting Spree">
+  <meta name="twitter:card" content="summary"><!-- Load our custom theme -->
+  <link rel="stylesheet" type="text/css" href="shootingspree_files/menu.css">
+</head>
+
+<body cz-shortcut-listen="true">
+  <main>
+    <div class="wrapper" id="wrapper">
+      <div id="content" class="content">
+        <div>
+          <div class="avatar-container">
+            <img class="avatar"
+              src="shootingspree_files/shootingspree.png"
+              alt="Shooting Spree">
+          </div>
+          <h1>Shooting Spree</h1>
         </div>
-    </main>
-</body></html>
+        <ul class="link-list">
+          <li class="https---www-roblox-com-games-85359208907032-shooting-spree">
+            <a href="https://www.roblox.com/games/85359208907032/Shooting-Spree">
+              <img
+                src="shootingspree_files/Overview-City-Templatesquare.png">
+              <span>Play the game here!</span>
+            </a>
+          </li>
+          <li class="https---www-roblox-com-catalog-113301347470130-shooting-spree-t-shirt">
+            <a href="https://www.roblox.com/catalog/113301347470130/Shooting-Spree-T-Shirt">
+              <img
+                src="shootingspree_files/Overview-City-Templatesquare.png">
+              <span>Merch!</span>
+            </a>
+          </li>
+        </ul>
+        <footer class="footer"></footer>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

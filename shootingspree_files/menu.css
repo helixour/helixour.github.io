@@ -10,7 +10,7 @@ Select your chosen CSS by adding the theme name (e.g. menu) in settings.json
   --color-text-main: var(--glitch-blue-light);
 }
 body {
-  background-image: url("https://cdn.glitch.global/9f86fccc-25fa-4fde-afb8-43a451cb73b7/Overview-City-Template.png?v=1744407496209");
+  background-image: url("Overview-City-Templatesquare.png");
   background-size: cover;
 }
 
