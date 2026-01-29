@@ -130,3 +130,8 @@ ul.link-list li a:visited {
   color: var(--color-primary);
   border-top: 3px solid var(--color-primary);
 }
+
+.invisfooter {
+  color: var(--color-primary);
+  border-top: 0px solid var(--color-primary);
+}
