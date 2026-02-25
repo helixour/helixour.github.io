@@ -128,10 +128,13 @@ ul.link-list li a:visited {
 }
 .footer {
   color: var(--color-primary);
-  border-top: 3px solid var(--color-primary);
-}
-
-.invisfooter {
-  color: var(--color-primary);
   border-top: 0px solid var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 0rem 0 0rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
+  font-size: 25px;
 }
