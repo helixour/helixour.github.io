@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mystuff/
+
+Sitemap: https://helixour.github.io/sitemap.txt
