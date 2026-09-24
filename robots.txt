@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: /mystuff/
+Disallow: /raccoonland_files/
+Disallow: /shootingspree_files/
+Disallow: /redirects/
+Disallow: /construction/
 
 Sitemap: https://helixour.github.io/sitemap.txt
