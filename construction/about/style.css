@@ -420,6 +420,12 @@ ul.link-list li a span {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+.txt {
+  color: white;
+  font-family: monospace;
+}
+
 /******************************************************************************
 END Glitch in Bio default theme
 ******************************************************************************/
