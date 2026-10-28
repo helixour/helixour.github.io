@@ -18,11 +18,11 @@ body {
   background-size: cover;
 }
 
-ul.link-list li a .back {
+ul.link-list li a {
   display: flex;
 }
-ul.link-list li a:link .back,
-ul.link-list li a:visited .back {
+ul.link-list li a:link,
+ul.link-list li a:visited {
   color: #fff;
   background: rgba(255, 255, 255, 0);
   padding: 0.5rem;
@@ -31,16 +31,16 @@ ul.link-list li a:visited .back {
   font-weight: bold;
   min-height: 4.5rem;
 }
-ul.link-list li a span .back{
+ul.link-list li a span {
   text-align: justify;
   line-height: 1.2em;
   flex-grow: 1;
   text-align: center;
 }
-ul.link-list li a:hover, ul.link-list li a:focus .back {
+ul.link-list li a:hover, ul.link-list li a:focus {
   background-color: rgba(255, 255, 255, 0.1);
 }
-ul.link-list li a img .back{
+ul.link-list li a img{
   border-radius: 0.2rem;
   width: 3;
   overflow: visible;
