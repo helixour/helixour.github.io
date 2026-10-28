@@ -424,7 +424,7 @@ ul.link-list li a span {
 .txt {
   color: white;
   font-family: monospace;
-  size: 20px;
+  font-size: 20px;
   min-height: 4.5rem;
 }
 
