@@ -1,4 +1,4 @@
 https://helixour.github.io/
-https://helixour.github.io/coolstuff
-https://helixour.github.io/codeninjasprojects/
-https://helixour.github.io/codeninjasprojects/aug2026/clicker
+https://helixour.github.io/coolstuff/index.html
+https://helixour.github.io/codeninjasprojects/index.html
+https://helixour.github.io/codeninjasprojects/aug2026/clicker/index.html
