@@ -272,6 +272,10 @@ ul.link-list li a span {
 END Glitch in Bio default theme
 ******************************************************************************/
 
+#pfp {
+  transition: 250ms;
+}
+
 #pfp:hover {
   transform: scale(110%);
 }
