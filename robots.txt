@@ -4,5 +4,6 @@ Disallow: /raccoonland_files/
 Disallow: /shootingspree_files/
 Disallow: /redirects/
 Disallow: /construction/
+Disallow: /404/
 
 Sitemap: https://helixour.github.io/sitemap.txt
