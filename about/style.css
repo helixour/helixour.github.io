@@ -311,7 +311,6 @@ ul {
 /* Link styles */
 a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
-
   color: var(--color-text-main);
   transition: background 0.2s linear;
 }
@@ -319,6 +318,10 @@ a:hover,
 a:active,
 a:focus {
   background: #69696979;
+}
+
+#backbtn {
+  text-decoration: none;
 }
 /******************************************************************************
 END Page structure and element resets
