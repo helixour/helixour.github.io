@@ -311,7 +311,7 @@ ul {
 /* Link styles */
 a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
-  text-decoration: none;
+
   color: var(--color-text-main);
   transition: background 0.2s linear;
 }
